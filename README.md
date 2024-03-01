@@ -1,5 +1,10 @@
 # React Mounter
 
+----
+2024 Update: ReactDOM.render is no longer supported in React 18. Isolated change to use createRoot and avoid your app behaving as if it's running React 17.
+
+----
+
 React Mounter lets you mount React components to DOM easily.
 
 > React Mounter supports Server Side Rendering when used with [FlowRouter](https://github.com/kadirahq/flow-router).
